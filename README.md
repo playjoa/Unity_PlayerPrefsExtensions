@@ -24,10 +24,12 @@ public class YourClass
         if(PlayerPrefsBool.GetBool("OtherThing", false))
         {
             //OtherThing is True
+            PlayerPrefsBool.SetBool("AnotherThing", false);
         }
         else
         {
             //OtherThing is False 
+            PlayerPrefsBool.SetBool("AnotherThing", true);
         }
     }
 }
