@@ -21,7 +21,7 @@ public class YourClass
 
     void DoOtherThing()
     {
-        //Set starting values to bool, in this case, "OtherThing" default value will be false
+        //Set starting values to bool, in this case, "OtherThing" default value will be true
         if(PlayerPrefsBool.GetBool("OtherThing", true))
         {
             //OtherThing is True
