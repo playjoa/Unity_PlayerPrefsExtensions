@@ -9,7 +9,7 @@ public class YourClass
 {
     void DoSomething()
     {
-        if(PlayerPrefsBool.GetBool("Something"))
+        if(PlayerPrefsExtension.GetBool("Something"))
         {
             //Something is True
         }
@@ -22,15 +22,15 @@ public class YourClass
     void DoOtherThing()
     {
         //Set starting values to bool, in this case, "OtherThing" default value will be true
-        if(PlayerPrefsBool.GetBool("OtherThing", true))
+        if(PlayerPrefsExtension.GetBool("OtherThing", true))
         {
             //OtherThing is True
-            PlayerPrefsBool.SetBool("AnotherThing", false);
+            PlayerPrefsExtension.SetBool("AnotherThing", false);
         }
         else
         {
             //OtherThing is False 
-            PlayerPrefsBool.SetBool("AnotherThing", true);
+            PlayerPrefsExtension.SetBool("AnotherThing", true);
         }
     }
 }
