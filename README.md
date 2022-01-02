@@ -1,8 +1,6 @@
 # Unity_PlayerPrefsExtensions
 Easy solution to use bools in PlayerPrefs. Add it to your project and save true or false values with this static class.
 
-OBS: Default value is false. You can use PlayerPrefsBool.GetBool("yourPlayerPrefsKey", true); if you wish to use true as the starting value. 
-
 ## Easy to use in your project
 ```C#
 public class YourClass
